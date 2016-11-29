@@ -39,7 +39,9 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
             x_max=y_max=z_max=0;
         }
     };
+
     double x_max = 0,y_max = 0,z_max = 0;
+
     @Override
     public void onSensorChanged(SensorEvent event) {
         // Many sensors return 3 values, one for each axis.
